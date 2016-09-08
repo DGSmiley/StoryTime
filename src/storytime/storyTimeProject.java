@@ -22,7 +22,7 @@ public class storyTimeProject {
 		case "run away":
 			break;
 		case "face the beast":
-			System.out.println();
+			System.out.println("You approach the dragon. You see that it has");
 			break;
 		}
 		}	
