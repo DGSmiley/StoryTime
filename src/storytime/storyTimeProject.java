@@ -16,14 +16,21 @@ public class storyTimeProject {
 		
 		
 		if (choice.equals("yes")) {
-			System.out.println("Excellent! You are walking across a field and you encounter a fire-breathing dragon! What do you do? (enter face the beast or run away)");
+			System.out.println("Excellent! You are walking across a field and you encounter a fire-breathing dragon! What do you do? (face the beast or run away)");
 		String option = userInput.nextLine();
 		switch (option) {
 		case "run away":
 			break;
 		case "face the beast":
-			System.out.println("You approach the dragon. You see that it has");
-			break;
+			System.out.println("You approach the dragon. You see that it has _ heads  (1, 2 or 3)");
+			int value = userInput.nextInt();
+			if (value == 1){
+				System.out.println("A one-headed Dragon");
+			break; }
+			else if (value == 2) {
+				System.out.println("A twin-headed Dragon");
+			}
+			
 		}
 		}	
 						
