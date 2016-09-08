@@ -20,6 +20,7 @@ public class storyTimeProject {
 		String option = userInput.nextLine();
 		switch (option) {
 		case "run away":
+			System.out.println("live another day");
 			break;
 		case "face the beast":
 			System.out.println("You approach the dragon. You see that it has _ heads  (1, 2 or 3)");
@@ -29,8 +30,13 @@ public class storyTimeProject {
 			break; }
 			else if (value == 2) {
 				System.out.println("A twin-headed Dragon");
+				break; }
+			else if (value == 3) {
+				System.out.println("No one has ever faced a Tri-headed Dragon before!");
 			}
 			
+			}
+			System.out.println("Choose your weapon");
 		}
 		}	
 						
@@ -39,6 +45,6 @@ public class storyTimeProject {
 			
 		}
 			
-	}
+	
 
 
